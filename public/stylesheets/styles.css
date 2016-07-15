@@ -302,53 +302,46 @@
   font-style: normal;
   font-stratch: normal; }
 @font-face {
-  font-family: "iransansbold";
-  src: url("/static/fonts-pack/iransans/bold/iransans.eot");
-  src: url("/static/fonts-pack/iransans/bold/iransans.eot?") format("eot"), url("/static/fonts-pack/iransans/bold/iransans.woff2") format("woff2"), url("/static/fonts-pack/iransans/bold/iransans.woff") format("woff"), url("/static/fonts-pack/iransans/bold/iransans.ttf") format("truetype"); }
-#iransansbold h1, #iransansbold h2, #iransansbold h3, #iransansbold h4, #iransansbold h5, #iransansbold h6, #iransansbold p, #iransansbold select, #iransansbold option {
-  font-family: "iransansbold"; }
+  font-family: "badrregular";
+  src: url("/static/fonts-pack/badr/regular/badr.eot");
+  src: url("/static/fonts-pack/badr/regular/badr.eot?") format("eot"), url("/static/fonts-pack/badr/regular/badr.woff2") format("woff2"), url("/static/fonts-pack/badr/regular/badr.woff") format("woff"), url("/static/fonts-pack/badr/regular/badr.ttf") format("truetype"); }
+#badrregular h1, #badrregular h2, #badrregular h3, #badrregular h4, #badrregular h5, #badrregular h6, #badrregular p, #badrregular select, #badrregular option {
+  font-family: "badrregular"; }
 
 @font-face {
-  font-family: "iransansmedium";
-  src: url("/static/fonts-pack/iransans/medium/iransans.eot");
-  src: url("/static/fonts-pack/iransans/medium/iransans.eot?") format("eot"), url("/static/fonts-pack/iransans/medium/iransans.woff2") format("woff2"), url("/static/fonts-pack/iransans/medium/iransans.woff") format("woff"), url("/static/fonts-pack/iransans/medium/iransans.ttf") format("truetype"); }
-#iransansmedium h1, #iransansmedium h2, #iransansmedium h3, #iransansmedium h4, #iransansmedium h5, #iransansmedium h6, #iransansmedium p, #iransansmedium select, #iransansmedium option {
-  font-family: "iransansmedium"; }
+  font-family: "baranregular";
+  src: url("/static/fonts-pack/baran/regular/baran.eot");
+  src: url("/static/fonts-pack/baran/regular/baran.eot?") format("eot"), url("/static/fonts-pack/baran/regular/baran.woff2") format("woff2"), url("/static/fonts-pack/baran/regular/baran.woff") format("woff"), url("/static/fonts-pack/baran/regular/baran.ttf") format("truetype"); }
+#baranregular h1, #baranregular h2, #baranregular h3, #baranregular h4, #baranregular h5, #baranregular h6, #baranregular p, #baranregular select, #baranregular option {
+  font-family: "baranregular"; }
 
 @font-face {
-  font-family: "iransanslight";
-  src: url("/static/fonts-pack/iransans/light/iransans.eot");
-  src: url("/static/fonts-pack/iransans/light/iransans.eot?") format("eot"), url("/static/fonts-pack/iransans/light/iransans.woff2") format("woff2"), url("/static/fonts-pack/iransans/light/iransans.woff") format("woff"), url("/static/fonts-pack/iransans/light/iransans.ttf") format("truetype"); }
-#iransanslight h1, #iransanslight h2, #iransanslight h3, #iransanslight h4, #iransanslight h5, #iransanslight h6, #iransanslight p, #iransanslight select, #iransanslight option {
-  font-family: "iransanslight"; }
+  font-family: "bardiyaregular";
+  src: url("/static/fonts-pack/bardiya/regular/bardiya.eot");
+  src: url("/static/fonts-pack/bardiya/regular/bardiya.eot?") format("eot"), url("/static/fonts-pack/bardiya/regular/bardiya.woff2") format("woff2"), url("/static/fonts-pack/bardiya/regular/bardiya.woff") format("woff"), url("/static/fonts-pack/bardiya/regular/bardiya.ttf") format("truetype"); }
+#bardiyaregular h1, #bardiyaregular h2, #bardiyaregular h3, #bardiyaregular h4, #bardiyaregular h5, #bardiyaregular h6, #bardiyaregular p, #bardiyaregular select, #bardiyaregular option {
+  font-family: "bardiyaregular"; }
 
 @font-face {
-  font-family: "samimbold";
-  src: url("/static/fonts-pack/samim/bold/samim.eot");
-  src: url("/static/fonts-pack/samim/bold/samim.eot?") format("eot"), url("/static/fonts-pack/samim/bold/samim.woff2") format("woff2"), url("/static/fonts-pack/samim/bold/samim.woff") format("woff"), url("/static/fonts-pack/samim/bold/samim.ttf") format("truetype"); }
-#samimbold h1, #samimbold h2, #samimbold h3, #samimbold h4, #samimbold h5, #samimbold h6, #samimbold p, #samimbold select, #samimbold option {
-  font-family: "samimbold"; }
+  font-family: "davatregular";
+  src: url("/static/fonts-pack/davat/regular/davat.eot");
+  src: url("/static/fonts-pack/davat/regular/davat.eot?") format("eot"), url("/static/fonts-pack/davat/regular/davat.woff2") format("woff2"), url("/static/fonts-pack/davat/regular/davat.woff") format("woff"), url("/static/fonts-pack/davat/regular/davat.ttf") format("truetype"); }
+#davatregular h1, #davatregular h2, #davatregular h3, #davatregular h4, #davatregular h5, #davatregular h6, #davatregular p, #davatregular select, #davatregular option {
+  font-family: "davatregular"; }
 
 @font-face {
-  font-family: "samimnormal";
-  src: url("/static/fonts-pack/samim/normal/samim.eot");
-  src: url("/static/fonts-pack/samim/normal/samim.eot?") format("eot"), url("/static/fonts-pack/samim/normal/samim.woff2") format("woff2"), url("/static/fonts-pack/samim/normal/samim.woff") format("woff"), url("/static/fonts-pack/samim/normal/samim.ttf") format("truetype"); }
-#samimnormal h1, #samimnormal h2, #samimnormal h3, #samimnormal h4, #samimnormal h5, #samimnormal h6, #samimnormal p, #samimnormal select, #samimnormal option {
-  font-family: "samimnormal"; }
+  font-family: "elhamregular";
+  src: url("/static/fonts-pack/elham/regular/elham.eot");
+  src: url("/static/fonts-pack/elham/regular/elham.eot?") format("eot"), url("/static/fonts-pack/elham/regular/elham.woff2") format("woff2"), url("/static/fonts-pack/elham/regular/elham.woff") format("woff"), url("/static/fonts-pack/elham/regular/elham.ttf") format("truetype"); }
+#elhamregular h1, #elhamregular h2, #elhamregular h3, #elhamregular h4, #elhamregular h5, #elhamregular h6, #elhamregular p, #elhamregular select, #elhamregular option {
+  font-family: "elhamregular"; }
 
 @font-face {
-  font-family: "vazirbold";
-  src: url("/static/fonts-pack/vazir/bold/vazir.eot");
-  src: url("/static/fonts-pack/vazir/bold/vazir.eot?") format("eot"), url("/static/fonts-pack/vazir/bold/vazir.woff2") format("woff2"), url("/static/fonts-pack/vazir/bold/vazir.woff") format("woff"), url("/static/fonts-pack/vazir/bold/vazir.ttf") format("truetype"); }
-#vazirbold h1, #vazirbold h2, #vazirbold h3, #vazirbold h4, #vazirbold h5, #vazirbold h6, #vazirbold p, #vazirbold select, #vazirbold option {
-  font-family: "vazirbold"; }
-
-@font-face {
-  font-family: "vazirnormal";
-  src: url("/static/fonts-pack/vazir/normal/vazir.eot");
-  src: url("/static/fonts-pack/vazir/normal/vazir.eot?") format("eot"), url("/static/fonts-pack/vazir/normal/vazir.woff2") format("woff2"), url("/static/fonts-pack/vazir/normal/vazir.woff") format("woff"), url("/static/fonts-pack/vazir/normal/vazir.ttf") format("truetype"); }
-#vazirnormal h1, #vazirnormal h2, #vazirnormal h3, #vazirnormal h4, #vazirnormal h5, #vazirnormal h6, #vazirnormal p, #vazirnormal select, #vazirnormal option {
-  font-family: "vazirnormal"; }
+  font-family: "esfahanregular";
+  src: url("/static/fonts-pack/esfahan/regular/esfahan.eot");
+  src: url("/static/fonts-pack/esfahan/regular/esfahan.eot?") format("eot"), url("/static/fonts-pack/esfahan/regular/esfahan.woff2") format("woff2"), url("/static/fonts-pack/esfahan/regular/esfahan.woff") format("woff"), url("/static/fonts-pack/esfahan/regular/esfahan.ttf") format("truetype"); }
+#esfahanregular h1, #esfahanregular h2, #esfahanregular h3, #esfahanregular h4, #esfahanregular h5, #esfahanregular h6, #esfahanregular p, #esfahanregular select, #esfahanregular option {
+  font-family: "esfahanregular"; }
 
 h1, h2, h3 {
   font-family: "shabnambold", Tahoma, Arial, sans-serif; }

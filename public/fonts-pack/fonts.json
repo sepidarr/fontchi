@@ -1,47 +1,61 @@
 [
   {
-    "name" : "iransans",
-    "title": "ایران سنس",
+    "name" : "badr",
+    "title": "بدر",
     "types": [
       {
-        "name": "medium",
-        "title": "قلم متوسط"
-      },
-      {
-        "name": "light",
-        "title": "قلم باریک"
-      },
-      {
-        "name": "bold",
-        "title": "قلم درشت"
+        "name": "regular",
+        "title": "قلم معمولی"
       }
     ]
   },
   {
-    "name" : "samim",
-    "title": "صمیم",
+    "name" : "baran",
+    "title": "باران",
     "types": [
       {
-        "name": "normal",
+        "name": "regular",
         "title": "قلم معمولی"
-      },
-      {
-        "name": "bold",
-        "title": "قلم درشت"
       }
     ]
   },
   {
-    "name" : "vazir",
-    "title": "وزیر",
+    "name" : "bardiya",
+    "title": "بردیا",
     "types": [
       {
-        "name": "normal",
+        "name": "regular",
         "title": "قلم معمولی"
-      },
+      }
+    ]
+  },
+  {
+    "name" : "davat",
+    "title": "دوات",
+    "types": [
       {
-        "name": "bold",
-        "title": "قلم درشت"
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "elham",
+    "title": "الهام",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "esfahan",
+    "title": "اصفهان",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
       }
     ]
   }
