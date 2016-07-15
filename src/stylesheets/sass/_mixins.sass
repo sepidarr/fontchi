@@ -15,9 +15,9 @@
     src: url('/static/fonts-pack/#{$font-path}/#{$font-filename}.eot?') format('eot'), url('/static/fonts-pack/#{$font-path}/#{$font-filename}.woff2') format('woff2'), url('/static/fonts-pack/#{$font-path}/#{$font-filename}.woff') format('woff'), url('/static/fonts-pack/#{$font-path}/#{$font-filename}.ttf') format('truetype')
 
   ##{$font-family}
-    h1, h2, h3, h4, h5, h6, p, select, option
+    h1, h2, h3, h4, h5, h6, p, select, option, small, abbr, em, strong, del, u
       font-family: '#{$font-family}'
-    
+
 =build-color-palette
   @each $name, $color in $color-palette
     .text-#{$name}

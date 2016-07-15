@@ -76,7 +76,7 @@
   angular
     .module('application')
     .controller('PreviewController', PreviewController);
-  
+
   function PreviewController( localStorageService, $element ) {
     var self = this;
 
@@ -97,9 +97,9 @@
     }
 
     function toggleDetails() {
-      if (!self.moreDetailsEnabled) { 
+      if (!self.moreDetailsEnabled) {
         $details.removeClass('hide');
-      } else { 
+      } else {
         $details.addClass('hide');
       }
       self.moreDetailsEnabled = !self.moreDetailsEnabled;
@@ -113,6 +113,7 @@
   }
 
 })();
+
 (function() {
 
   'use strict';
