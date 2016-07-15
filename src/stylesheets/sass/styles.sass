@@ -5,6 +5,7 @@
 +build-color-palette
 
 @import "helpers"
+@import "rangeslider"
 
 // Shabnam Font Family
 +font-face("shabnam/bold", 'shabnambold', 'shabnam')
@@ -23,13 +24,18 @@ p, label, input, button, small, a, li, legend, td, span, strong, div, pre
 body.light
   background-color: #f8f8f8
 
+  .topbar-logo
+    background: linear-gradient(90deg,rgb(0, 172, 183) 0%, rgb(0, 255, 201) 100%)
+    padding: 15px
   .preview
+    transition: all 0.5s ease
     .unvisible
       visibility: hidden
-  .preview:hover
-    box-shadow: 0px 0px 5px 1px $primary-color
-    .unvisible
-      visibility: visible
+    &:hover
+      box-shadow: 0px 0px 5px 1px $primary-color
+      transition: all 0.5s ease
+      .unvisible
+        visibility: visible
 
 div[contenteditable='true']
   border-radius: $button-radius

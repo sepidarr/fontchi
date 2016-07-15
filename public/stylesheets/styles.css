@@ -287,6 +287,57 @@
 .dir-ltr {
   direction: ltr; }
 
+.range {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 10px 0px;
+  width: 100%; }
+  .range::-webkit-slider-thumb {
+    border-color: #03a2ac; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background: #03a2ac;
+  height: 2px; }
+
+input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  background: #03a2ac;
+  height: 2px; }
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  max-width: 80px;
+  position: relative;
+  bottom: 7.5px;
+  background-color: #02737a;
+  cursor: -webkit-grab;
+  -webkit-transition: border 1000ms ease;
+  transition: border 1000ms ease; }
+  input[type=range]::-webkit-slider-thumb:active {
+    cursor: -webkit-grabbing; }
+
+input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  max-width: 80px;
+  position: relative;
+  bottom: 7.5px;
+  background-color: #02737a;
+  cursor: -moz-grab;
+  -moz-transition: border 1000ms ease;
+  transition: border 1000ms ease; }
+  input[type=range]::-moz-range-thumb:active {
+    cursor: -moz-grabbing; }
+
+input[type=range]:focus {
+  outline: none; }
+
 @font-face {
   font-family: "shabnambold";
   src: url("/static/fonts/shabnam/bold/shabnam.eot");
@@ -354,12 +405,18 @@ p, label, input, button, small, a, li, legend, td, span, strong, div, pre {
 
 body.light {
   background-color: #f8f8f8; }
-  body.light .preview .unvisible {
-    visibility: hidden; }
-  body.light .preview:hover {
-    box-shadow: 0px 0px 5px 1px #03a2ac; }
-    body.light .preview:hover .unvisible {
-      visibility: visible; }
+  body.light .topbar-logo {
+    background: linear-gradient(90deg, #00acb7 0%, #00ffc9 100%);
+    padding: 15px; }
+  body.light .preview {
+    transition: all 0.5s ease; }
+    body.light .preview .unvisible {
+      visibility: hidden; }
+    body.light .preview:hover {
+      box-shadow: 0px 0px 5px 1px #03a2ac;
+      transition: all 0.5s ease; }
+      body.light .preview:hover .unvisible {
+        visibility: visible; }
 
 div[contenteditable='true'] {
   border-radius: 5px;
