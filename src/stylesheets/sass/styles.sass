@@ -1,0 +1,32 @@
+@import "colors"
+@import "mixins"
+
++build-color-palette
+
+@import "helpers"
+
+// Shabnam Font Family
++font-face("shabnam/bold", 'shabnambold', 'shabnam')
++font-face("shabnam/normal", 'shabnamnormal', 'shabnam')
+
+@import "fonts-pack"
+
+h1, h2, h3
+  font-family: "shabnambold", Tahoma, Arial, sans-serif
+h4, h5, h6, th
+  font-family: "shabnamnormal", Tahoma, Arial, sans-serif
+p, label, input, button, small, a, li, legend, td, span, strong, div, pre
+  font-family: "shabnamnormal", Tahoma, Arial, sans-serif
+
+
+body.light
+  background-color: #f8f8f8
+
+  .preview
+    .unvisible
+      visibility: hidden
+  .preview:hover
+    box-shadow: 0px 0px 5px 1px #03a2ac
+    .unvisible
+      visibility: visible
+      

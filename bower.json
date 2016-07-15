@@ -1,0 +1,25 @@
+{
+  "name": "fonti-angular",
+  "authors": [
+    "Sina Sadrzadeh <sadrzadeh.sinaa@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "foundation-sites": "^6.2.3",
+    "font-awesome": "fontawesome#^4.6.3",
+    "angular-ui-router": "^0.3.1",
+    "angular-local-storage": "^0.2.7"
+  }
+}

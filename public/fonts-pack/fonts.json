@@ -1,0 +1,48 @@
+[
+  {
+    "name" : "iransans",
+    "title": "ایران سنس",
+    "types": [
+      {
+        "name": "medium",
+        "title": "قلم متوسط"
+      },
+      {
+        "name": "light",
+        "title": "قلم باریک"
+      },
+      {
+        "name": "bold",
+        "title": "قلم درشت"
+      }
+    ]
+  },
+  {
+    "name" : "samim",
+    "title": "صمیم",
+    "types": [
+      {
+        "name": "normal",
+        "title": "قلم معمولی"
+      },
+      {
+        "name": "bold",
+        "title": "قلم درشت"
+      }
+    ]
+  },
+  {
+    "name" : "vazir",
+    "title": "وزیر",
+    "types": [
+      {
+        "name": "normal",
+        "title": "قلم معمولی"
+      },
+      {
+        "name": "bold",
+        "title": "قلم درشت"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+$sizes: small medium large xlarge xxlarge
+$directions: top right bottom left
+$font-size: 12
+$padding: 3
+$margin: 3
+
+@for $i from 1 through length($sizes)
+  $size: nth($sizes, $i)
+
+  .font-#{$size}
+    font-size: $font-size * $i + px
+
+  .padding-#{$size}
+    padding: $padding * $i + px
+
+  @each $direction in $directions
+    .padding-#{$size}-#{$direction}
+      padding-#{$direction}: $padding * $i + px!important
+
+  .margin-#{$size}
+    margin: $margin * $i + px
+
+  @each $direction in $directions
+    .margin-#{$size}-#{$direction}
+      margin-#{$direction}: $margin * $i + px!important
+
+.no-padding
+  padding: 0!important
+
+.no-margin
+  margin: 0!important
+
+.no-border
+  border: 0 none!important
+.no-border-radius
+  border-radius: 0!important
+
+.list-style-type-none
+  list-style-type: none!important
+
+.full-width
+  width: 100%
+
+.display-inline
+  display: inline
+
+.force-en
+  font-family: 'firamonomedium', sans-serif !important
+
+.valign-top
+  vertical-align: top
+.valign-middle
+  vertical-align: middle
+.valign-bottom
+  vertical-align: bottom
+
+.dir-ltr
+  direction: ltr

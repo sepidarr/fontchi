@@ -1,0 +1,29 @@
+html(lang="fa", dir="rtl")
+  head
+    title فونتی |‌ انتخاب فونت مناسب
+
+    link(rel="stylesheet", href="/static/stylesheets/fontawesome.css")
+    link(rel="stylesheet", href="/static/stylesheets/foundation.css")
+    link(rel="stylesheet", href="/static/stylesheets/styles.css")
+
+  body.light(ng-app="application", ng-controller="ApplicationController as vm")
+
+    include ./_topbar.pug
+
+    .row.expanded
+      .small-12.medium-2.columns
+        include ./_sidebar.pug
+      .small-12.medium-10.columns
+        p &nbsp;
+        p &nbsp;
+        <div ui-view></div>
+
+  
+    script(type="text/javascript", src="/static/javascripts/jquery.min.js")
+    script(type="text/javascript", src="/static/javascripts/angular.min.js")
+    script(type="text/javascript", src="/static/javascripts/foundation.min.js")
+
+    script(type="text/javascript", src="/static/javascripts/libs.js")
+
+    script(type="text/javascript", src="/static/javascripts/application.js")
+

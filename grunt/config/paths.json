@@ -1,0 +1,5 @@
+{
+  "bower": "./bower_components",
+  "public": "./public",
+  "src": "./src"
+}

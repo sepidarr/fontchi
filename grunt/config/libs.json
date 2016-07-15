@@ -1,0 +1,13 @@
+{
+  "javascripts": {
+    "jquery": "./bower_components/jquery/dist/jquery.min.js",
+    "angular": "./bower_components/angular/angular.min.js",
+    "foundation": "./bower_components/foundation-sites/dist/foundation.min.js",
+    "common": [
+      "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
+      "./bower_components/angular-local-storage/dist/angular-local-storage.min.js"
+    ]
+  },
+  "stylesheets": [
+  ]
+}
