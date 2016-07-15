@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'mehr';
+    src: url('mehr.eot');
+    /* IE9 Compat Modes */
+    src: url('mehr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('mehr.woff2') format('woff2'), /* Modern Browsers */
+    url('mehr.woff') format('woff'), /* Modern Browsers */
+    url('mehr.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('mehr.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

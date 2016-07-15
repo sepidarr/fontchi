@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'yekan';
+    src: url('yekan.eot');
+    /* IE9 Compat Modes */
+    src: url('yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('yekan.woff2') format('woff2'), /* Modern Browsers */
+    url('yekan.woff') format('woff'), /* Modern Browsers */
+    url('yekan.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('yekan.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

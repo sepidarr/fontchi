@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'baran';
+    src: url('baran.eot');
+    /* IE9 Compat Modes */
+    src: url('baran.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('baran.woff2') format('woff2'), /* Modern Browsers */
+    url('baran.woff') format('woff'), /* Modern Browsers */
+    url('baran.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('baran.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

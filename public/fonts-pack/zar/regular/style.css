@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'zar';
+    src: url('zar.eot');
+    /* IE9 Compat Modes */
+    src: url('zar.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('zar.woff2') format('woff2'), /* Modern Browsers */
+    url('zar.woff') format('woff'), /* Modern Browsers */
+    url('zar.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('zar.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

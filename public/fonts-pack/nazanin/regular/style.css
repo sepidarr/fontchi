@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'nazanin';
+    src: url('nazanin.eot');
+    /* IE9 Compat Modes */
+    src: url('nazanin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('nazanin.woff2') format('woff2'), /* Modern Browsers */
+    url('nazanin.woff') format('woff'), /* Modern Browsers */
+    url('nazanin.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('nazanin.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
