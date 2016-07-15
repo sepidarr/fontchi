@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontak.ir - All rights Are reserved for Fontak and Font Designer */
+
+@font-face {
+    font-family: 'Samim';
+    src: url('./regular/Samim.eot');
+    /* IE9 Compat Modes */
+    src: url('./regular/Samim.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./regular/Samim.woff2') format('woff2'), /* Modern Browsers */
+    url('./regular/Samim.woff') format('woff'), /* Modern Browsers */
+    url('./regular/Samim.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./regular/Samim.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

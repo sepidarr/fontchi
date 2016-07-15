@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontak.ir - All rights Are reserved for Fontak and Font Designer */
+
+@font-face {
+    font-family: 'BMahsa';
+    src: url('./regular/BMahsa.eot');
+    /* IE9 Compat Modes */
+    src: url('./regular/BMahsa.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./regular/BMahsa.woff2') format('woff2'), /* Modern Browsers */
+    url('./regular/BMahsa.woff') format('woff'), /* Modern Browsers */
+    url('./regular/BMahsa.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./regular/BMahsa.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

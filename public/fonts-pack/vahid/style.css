@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontak.ir - All rights Are reserved for Fontak and Font Designer */
+
+@font-face {
+    font-family: 'BVahidBold';
+    src: url('./bold/BVahidBold.eot');
+    /* IE9 Compat Modes */
+    src: url('./bold/BVahidBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./bold/BVahidBold.woff2') format('woff2'), /* Modern Browsers */
+    url('./bold/BVahidBold.woff') format('woff'), /* Modern Browsers */
+    url('./bold/BVahidBold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./bold/BVahidBold.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
