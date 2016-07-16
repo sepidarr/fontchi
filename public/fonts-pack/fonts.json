@@ -268,11 +268,11 @@
         "title": "قلم ضخیم"
       },
       {
-        "name": "persiandigit-bold",
+        "name": "persiandigits-bold",
         "title": "قلم ضخیم با اعداد فارسی"
       },
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
@@ -300,11 +300,11 @@
         "title": "قلم ضخیم"
       },
       {
-        "name": "persiandigit-bold",
+        "name": "persiandigits-bold",
         "title": "قلم ضخیم با اعداد فارسی"
       },
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
@@ -358,7 +358,7 @@
     "title": "تنها",
     "types": [
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
@@ -412,19 +412,19 @@
     "title": "وزیر",
     "types": [
       {
-        "name": "persiandigit-bold",
+        "name": "persiandigits-bold",
         "title": "قلم ضخیم با اعداد فارسی"
       },
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
-        "name": "persiandigit-medium",
+        "name": "persiandigits-medium",
         "title": "قلم متوسط با اعداد فارسی"
       },
       {
-        "name": "persiandigit-light",
+        "name": "persiandigits-light",
         "title": "قلم لایت با اعداد فارسی"
       },
       {
