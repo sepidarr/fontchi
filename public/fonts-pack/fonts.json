@@ -50,8 +50,444 @@
     ]
   },
   {
-    "name" : "esfahan",
+    "name" : "esfehan",
     "title": "اصفهان",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "fantezy",
+    "title": "فانتزی",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "farbod",
+    "title": "فربد",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "farnaz",
+    "title": "فرناز",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "ferdosi",
+    "title": "فردوسی",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "hamid",
+    "title": "حمید",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "helal",
+    "title": "هلال",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "homa",
+    "title": "هما",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "jadid",
+    "title": "جدید",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "jalal",
+    "title": "جلال",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "koodak",
+    "title": "کودک",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "kourosh",
+    "title": "کوروش",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "lotus",
+    "title": "لوتوس",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "mahsa",
+    "title": "مهسا",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "mehr",
+    "title": "مهر",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "mitra",
+    "title": "میترا",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "morvarid",
+    "title": "مروارید",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "narm",
+    "title": "نرم",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "nasim",
+    "title": "نسیم",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "nazanin",
+    "title": "نازنین",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "nika",
+    "title": "نیکا",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "parastoo",
+    "title": "پرستو",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      },
+      {
+        "name": "persiandigit-bold",
+        "title": "قلم ضخیم با اعداد فارسی"
+      },
+      {
+        "name": "persiandigit-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "roya",
+    "title": "رویا",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "samim",
+    "title": "صمیم",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      },
+      {
+        "name": "persiandigit-bold",
+        "title": "قلم ضخیم با اعداد فارسی"
+      },
+      {
+        "name": "persiandigit-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "setareh",
+    "title": "ستاره",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "shiraz",
+    "title": "شیراز",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "sina",
+    "title": "سینا",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "tabassom",
+    "title": "تبسم",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "tanha",
+    "title": "تنها",
+    "types": [
+      {
+        "name": "persiandigit-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "tehran",
+    "title": "تهران",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "titr",
+    "title": "تیتر",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "traffic",
+    "title": "ترافیک",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "vahid",
+    "title": "وحید",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "vazir",
+    "title": "وزیر",
+    "types": [
+      {
+        "name": "persiandigit-bold",
+        "title": "قلم ضخیم با اعداد فارسی"
+      },
+      {
+        "name": "persiandigit-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "persiandigit-medium",
+        "title": "قلم متوسط با اعداد فارسی"
+      },
+      {
+        "name": "persiandigit-light",
+        "title": "قلم لایت با اعداد فارسی"
+      },
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      },
+      {
+        "name": "light",
+        "title": "قلم لایت"
+      },
+      {
+        "name": "medium",
+        "title": "قلم متوسط"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "yagut",
+    "title": "یاقوت",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "yas",
+    "title": "یاس",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "yekan",
+    "title": "یکان",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "zar",
+    "title": "زر",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "ziba",
+    "title": "زیبا",
     "types": [
       {
         "name": "regular",

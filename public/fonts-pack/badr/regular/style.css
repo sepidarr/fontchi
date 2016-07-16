@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'badr';
+    src: url('badr.eot');
+    /* IE9 Compat Modes */
+    src: url('badr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('badr.woff2') format('woff2'), /* Modern Browsers */
+    url('badr.woff') format('woff'), /* Modern Browsers */
+    url('badr.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('badr.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'fantezy';
+    src: url('fantezy.eot');
+    /* IE9 Compat Modes */
+    src: url('fantezy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fantezy.woff2') format('woff2'), /* Modern Browsers */
+    url('fantezy.woff') format('woff'), /* Modern Browsers */
+    url('fantezy.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fantezy.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

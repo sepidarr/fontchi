@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'traffic';
+    src: url('traffic.eot');
+    /* IE9 Compat Modes */
+    src: url('traffic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('traffic.woff2') format('woff2'), /* Modern Browsers */
+    url('traffic.woff') format('woff'), /* Modern Browsers */
+    url('traffic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('traffic.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

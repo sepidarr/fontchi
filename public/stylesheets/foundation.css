@@ -1820,7 +1820,7 @@ select {
     top: 50%;
     margin-top: -0.5rem; }
   .is-active > .accordion-title::before {
-    content: '–'; }
+    content: 'ÔÇô'; }
 
 .accordion-content {
   padding: 1rem;

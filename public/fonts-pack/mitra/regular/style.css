@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'mitra';
+    src: url('mitra.eot');
+    /* IE9 Compat Modes */
+    src: url('mitra.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('mitra.woff2') format('woff2'), /* Modern Browsers */
+    url('mitra.woff') format('woff'), /* Modern Browsers */
+    url('mitra.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('mitra.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

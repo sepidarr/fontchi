@@ -287,6 +287,57 @@
 .dir-ltr {
   direction: ltr; }
 
+.range {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 10px 0px;
+  width: 100%; }
+  .range::-webkit-slider-thumb {
+    border-color: #03a2ac; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background: #03a2ac;
+  height: 2px; }
+
+input[type=range]::-moz-range-track {
+  -moz-appearance: none;
+  background: #03a2ac;
+  height: 2px; }
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  max-width: 80px;
+  position: relative;
+  bottom: 7.5px;
+  background-color: #02737a;
+  cursor: -webkit-grab;
+  -webkit-transition: border 1000ms ease;
+  transition: border 1000ms ease; }
+  input[type=range]::-webkit-slider-thumb:active {
+    cursor: -webkit-grabbing; }
+
+input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  max-width: 80px;
+  position: relative;
+  bottom: 7.5px;
+  background-color: #02737a;
+  cursor: -moz-grab;
+  -moz-transition: border 1000ms ease;
+  transition: border 1000ms ease; }
+  input[type=range]::-moz-range-thumb:active {
+    cursor: -moz-grabbing; }
+
+input[type=range]:focus {
+  outline: none; }
+
 @font-face {
   font-family: "shabnambold";
   src: url("/static/fonts/shabnam/bold/shabnam.eot");
@@ -305,42 +356,42 @@
   font-family: "badrregular";
   src: url("/static/fonts-pack/badr/regular/badr.eot");
   src: url("/static/fonts-pack/badr/regular/badr.eot?") format("eot"), url("/static/fonts-pack/badr/regular/badr.woff2") format("woff2"), url("/static/fonts-pack/badr/regular/badr.woff") format("woff"), url("/static/fonts-pack/badr/regular/badr.ttf") format("truetype"); }
-#badrregular h1, #badrregular h2, #badrregular h3, #badrregular h4, #badrregular h5, #badrregular h6, #badrregular p, #badrregular select, #badrregular option {
+#badrregular h1, #badrregular h2, #badrregular h3, #badrregular h4, #badrregular h5, #badrregular h6, #badrregular p, #badrregular select, #badrregular option, #badrregular small, #badrregular abbr, #badrregular em, #badrregular strong, #badrregular del, #badrregular u {
   font-family: "badrregular"; }
 
 @font-face {
   font-family: "baranregular";
   src: url("/static/fonts-pack/baran/regular/baran.eot");
   src: url("/static/fonts-pack/baran/regular/baran.eot?") format("eot"), url("/static/fonts-pack/baran/regular/baran.woff2") format("woff2"), url("/static/fonts-pack/baran/regular/baran.woff") format("woff"), url("/static/fonts-pack/baran/regular/baran.ttf") format("truetype"); }
-#baranregular h1, #baranregular h2, #baranregular h3, #baranregular h4, #baranregular h5, #baranregular h6, #baranregular p, #baranregular select, #baranregular option {
+#baranregular h1, #baranregular h2, #baranregular h3, #baranregular h4, #baranregular h5, #baranregular h6, #baranregular p, #baranregular select, #baranregular option, #baranregular small, #baranregular abbr, #baranregular em, #baranregular strong, #baranregular del, #baranregular u {
   font-family: "baranregular"; }
 
 @font-face {
   font-family: "bardiyaregular";
   src: url("/static/fonts-pack/bardiya/regular/bardiya.eot");
   src: url("/static/fonts-pack/bardiya/regular/bardiya.eot?") format("eot"), url("/static/fonts-pack/bardiya/regular/bardiya.woff2") format("woff2"), url("/static/fonts-pack/bardiya/regular/bardiya.woff") format("woff"), url("/static/fonts-pack/bardiya/regular/bardiya.ttf") format("truetype"); }
-#bardiyaregular h1, #bardiyaregular h2, #bardiyaregular h3, #bardiyaregular h4, #bardiyaregular h5, #bardiyaregular h6, #bardiyaregular p, #bardiyaregular select, #bardiyaregular option {
+#bardiyaregular h1, #bardiyaregular h2, #bardiyaregular h3, #bardiyaregular h4, #bardiyaregular h5, #bardiyaregular h6, #bardiyaregular p, #bardiyaregular select, #bardiyaregular option, #bardiyaregular small, #bardiyaregular abbr, #bardiyaregular em, #bardiyaregular strong, #bardiyaregular del, #bardiyaregular u {
   font-family: "bardiyaregular"; }
 
 @font-face {
   font-family: "davatregular";
   src: url("/static/fonts-pack/davat/regular/davat.eot");
   src: url("/static/fonts-pack/davat/regular/davat.eot?") format("eot"), url("/static/fonts-pack/davat/regular/davat.woff2") format("woff2"), url("/static/fonts-pack/davat/regular/davat.woff") format("woff"), url("/static/fonts-pack/davat/regular/davat.ttf") format("truetype"); }
-#davatregular h1, #davatregular h2, #davatregular h3, #davatregular h4, #davatregular h5, #davatregular h6, #davatregular p, #davatregular select, #davatregular option {
+#davatregular h1, #davatregular h2, #davatregular h3, #davatregular h4, #davatregular h5, #davatregular h6, #davatregular p, #davatregular select, #davatregular option, #davatregular small, #davatregular abbr, #davatregular em, #davatregular strong, #davatregular del, #davatregular u {
   font-family: "davatregular"; }
 
 @font-face {
   font-family: "elhamregular";
   src: url("/static/fonts-pack/elham/regular/elham.eot");
   src: url("/static/fonts-pack/elham/regular/elham.eot?") format("eot"), url("/static/fonts-pack/elham/regular/elham.woff2") format("woff2"), url("/static/fonts-pack/elham/regular/elham.woff") format("woff"), url("/static/fonts-pack/elham/regular/elham.ttf") format("truetype"); }
-#elhamregular h1, #elhamregular h2, #elhamregular h3, #elhamregular h4, #elhamregular h5, #elhamregular h6, #elhamregular p, #elhamregular select, #elhamregular option {
+#elhamregular h1, #elhamregular h2, #elhamregular h3, #elhamregular h4, #elhamregular h5, #elhamregular h6, #elhamregular p, #elhamregular select, #elhamregular option, #elhamregular small, #elhamregular abbr, #elhamregular em, #elhamregular strong, #elhamregular del, #elhamregular u {
   font-family: "elhamregular"; }
 
 @font-face {
   font-family: "esfahanregular";
   src: url("/static/fonts-pack/esfahan/regular/esfahan.eot");
   src: url("/static/fonts-pack/esfahan/regular/esfahan.eot?") format("eot"), url("/static/fonts-pack/esfahan/regular/esfahan.woff2") format("woff2"), url("/static/fonts-pack/esfahan/regular/esfahan.woff") format("woff"), url("/static/fonts-pack/esfahan/regular/esfahan.ttf") format("truetype"); }
-#esfahanregular h1, #esfahanregular h2, #esfahanregular h3, #esfahanregular h4, #esfahanregular h5, #esfahanregular h6, #esfahanregular p, #esfahanregular select, #esfahanregular option {
+#esfahanregular h1, #esfahanregular h2, #esfahanregular h3, #esfahanregular h4, #esfahanregular h5, #esfahanregular h6, #esfahanregular p, #esfahanregular select, #esfahanregular option, #esfahanregular small, #esfahanregular abbr, #esfahanregular em, #esfahanregular strong, #esfahanregular del, #esfahanregular u {
   font-family: "esfahanregular"; }
 
 h1, h2, h3 {
@@ -354,11 +405,29 @@ p, label, input, button, small, a, li, legend, td, span, strong, div, pre {
 
 body.light {
   background-color: #f8f8f8; }
-  body.light .preview .unvisible {
-    visibility: hidden; }
-  body.light .preview:hover {
-    box-shadow: 0px 0px 5px 1px #03a2ac; }
-    body.light .preview:hover .unvisible {
-      visibility: visible; }
+  body.light .topbar-logo {
+    background: linear-gradient(90deg, #00acb7 0%, #00ffc9 100%);
+    padding: 15px; }
+  body.light .preview {
+    transition: all 0.5s ease; }
+    body.light .preview .unvisible {
+      visibility: hidden; }
+    body.light .preview:hover {
+      box-shadow: 0px 0px 5px 1px #03a2ac;
+      transition: all 0.5s ease; }
+      body.light .preview:hover .unvisible {
+        visibility: visible; }
+
+div[contenteditable='true'] {
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out; }
+  div[contenteditable='true']:hover {
+    background: #f2f2f2;
+    transition: all 0.5s ease-in-out; }
+  div[contenteditable='true']:focus {
+    background: #f2f2f2;
+    outline: none;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out; }
 
 /*# sourceMappingURL=styles.css.map */

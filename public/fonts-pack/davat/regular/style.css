@@ -1,0 +1,15 @@
+/* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
+
+@font-face {
+    font-family: 'davat';
+    src: url('davat.eot');
+    /* IE9 Compat Modes */
+    src: url('davat.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('davat.woff2') format('woff2'), /* Modern Browsers */
+    url('davat.woff') format('woff'), /* Modern Browsers */
+    url('davat.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('davat.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
