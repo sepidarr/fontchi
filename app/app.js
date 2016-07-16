@@ -4,6 +4,7 @@ var express       = require('express'),
     session       = require('express-session'),
     fs            = require('fs'),
     path          = require('path'),
+    mime          = require('mime'),
     zipFolder     = require('zip-folder');
 
 var app = express();
@@ -31,6 +32,17 @@ app.get('/fonts', function( req, res, next ) {
 
 app.get('/download', function( req, res, next ) {
   var font = req.query.font;
+  var type = req.query.type;
+  var file = path.join(path.dirname('./public/fonts-pack/'),
+                       font, type, 'font.zip');
+  var filename = path.basename(file);
+  var mimetype = mime.lookup(file);
+
+  res.setHeader('Content-disposition', 'attachment; filename=' + filename);
+  res.setHeader('Content-type', mimetype);
+
+  var filestream = fs.createReadStream(file);
+  filestream.pipe(res);
 });
 
 module.exports = app;

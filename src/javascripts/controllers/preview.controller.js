@@ -44,7 +44,10 @@
       $http({
         url: '/download',
         method: 'GET',
-        params: { font: font }
+        params: { 
+          font: font,
+          type: self.fontStyle.name
+        }
       })
     }
 
