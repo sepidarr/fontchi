@@ -4,6 +4,6 @@ bower_components
 .DS_Store
 .vs-code
 
-pulbic/javascripts
+public/javascripts
 public/stylesheets
 public/templates
