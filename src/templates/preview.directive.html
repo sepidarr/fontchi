@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="buttons text-left unvisible">
-    <button class="button primary text-white">دانلود</button>
+    <button class="button primary text-white" ng-click="vm.download(font.name)">دانلود</button>
     <button class="button primary text-white" ng-click="vm.toggleDetails()">
       <span ng-if="!vm.moreDetailsEnabled">نمایش جزییات بیشتر</span>
       <span ng-if="vm.moreDetailsEnabled">عدم نمایش جزییات بیشتر</span>

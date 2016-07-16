@@ -13,7 +13,7 @@
     $scope.fontSize = 20;
 
     function getFonts() {
-      $http.get('http://localhost:3000/fonts').then(function( response ) {
+      $http.get('/fonts').then(function( response ) {
         self.fonts = response.data.fonts;
       });
     }

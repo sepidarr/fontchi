@@ -59,7 +59,7 @@
     $scope.fontSize = 20;
 
     function getFonts() {
-      $http.get('http://localhost:3000/fonts').then(function( response ) {
+      $http.get('/fonts').then(function( response ) {
         self.fonts = response.data.fonts;
       });
     }
@@ -77,7 +77,7 @@
     .module('application')
     .controller('PreviewController', PreviewController);
   
-  function PreviewController( localStorageService, $element ) {
+  function PreviewController( localStorageService, $http, $element ) {
     var self = this;
 
     self.fontStyle = {};
@@ -86,6 +86,7 @@
     self.addToFavorites = addToFavorites;
     self.toggleDetails = toggleDetails;
     self.changeFontStyle = changeFontStyle;
+    self.download = download;
 
     var $details = $($element).find('.details');
 
@@ -108,6 +109,14 @@
     function changeFontStyle( fontName ) {
       var fontStyleName = self.fontStyle.name;
       $($element).attr('id', fontName + fontStyleName);
+    }
+
+    function download( font ) {
+      $http({
+        url: '/download',
+        method: 'GET',
+        params: { font: font }
+      })
     }
 
   }

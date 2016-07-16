@@ -3,7 +3,8 @@ var express       = require('express'),
     cookieParser  = require('cookie-parser'),
     session       = require('express-session'),
     fs            = require('fs'),
-    path          = require('path');
+    path          = require('path'),
+    zipFolder     = require('zip-folder');
 
 var app = express();
 
@@ -26,6 +27,10 @@ app.get('/', function( req, res, next ) {
 app.get('/fonts', function( req, res, next ) {
   var fonts = JSON.parse(fs.readFileSync('./public/fonts-pack/fonts.json', 'utf8'));
   res.json({ fonts: fonts });
+});
+
+app.get('/download', function( req, res, next ) {
+  var font = req.query.font;
 });
 
 module.exports = app;
