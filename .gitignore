@@ -3,3 +3,7 @@ bower_components
 .sass-cache
 .DS_Store
 .vs-code
+
+pulbic/javascripts
+public/stylesheets
+public/templates
