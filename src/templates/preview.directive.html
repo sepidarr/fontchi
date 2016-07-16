@@ -44,7 +44,8 @@
     </div>
   </div>
   <div class="buttons text-left unvisible">
-    <button class="button primary text-white" ng-click="vm.download(font.name)">دانلود</button>
+    <a href="/download?font={{font.name}}&type={{vm.fontStyle.name}}"
+    class="button primary text-white">دانلود</a>
     <button class="button primary text-white" ng-click="vm.toggleDetails()">
       <span ng-if="!vm.moreDetailsEnabled">نمایش جزییات بیشتر</span>
       <span ng-if="vm.moreDetailsEnabled">عدم نمایش جزییات بیشتر</span>

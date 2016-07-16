@@ -30,11 +30,10 @@ app.get('/fonts', function( req, res, next ) {
   res.json({ fonts: fonts });
 });
 
-app.get('/download', function( req, res, next ) {
+app.get('/download?', function( req, res, next ) {
   var font = req.query.font;
   var type = req.query.type;
-  var file = path.join(path.dirname('./public/fonts-pack/'),
-                       font, type, 'font.zip');
+  var file = path.join('./public/fonts-pack/', font, type + '.zip');
   var filename = path.basename(file);
   var mimetype = mime.lookup(file);
 
