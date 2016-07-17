@@ -16,7 +16,7 @@ app.use('/static', express.static(rootDir + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 9002);
 app.set('views', './app/views');
 app.set('view engine', 'pug');
 // ------------------------ End of express configurations
