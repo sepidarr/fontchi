@@ -8,12 +8,12 @@
 
   function ApplicationRoutes( $stateProvider, $urlRouterProvider ) {
 
-    $urlRouterProvider.otherwise('editor');
+    $urlRouterProvider.otherwise('fonts');
 
     $stateProvider
-      .state('editor', {
-        url: '/editor',
-        templateUrl: '/static/templates/editor.html'
+      .state('fonts', {
+        url: '/fonts',
+        templateUrl: '/static/templates/fonts.html'
       });
 
   }
