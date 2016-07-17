@@ -262,17 +262,18 @@
   {
     "name" : "parastoo",
     "title": "پرستو",
+    "reference": "https://github.com/rastikerdar/parastoo-font",
     "types": [
       {
         "name": "bold",
         "title": "قلم ضخیم"
       },
       {
-        "name": "persiandigit-bold",
+        "name": "persiandigits-bold",
         "title": "قلم ضخیم با اعداد فارسی"
       },
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
@@ -294,17 +295,18 @@
   {
     "name" : "samim",
     "title": "صمیم",
+    "reference": "https://github.com/rastikerdar/samim-font",
     "types": [
       {
         "name": "bold",
         "title": "قلم ضخیم"
       },
       {
-        "name": "persiandigit-bold",
+        "name": "persiandigits-bold",
         "title": "قلم ضخیم با اعداد فارسی"
       },
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
@@ -356,9 +358,10 @@
   {
     "name" : "tanha",
     "title": "تنها",
+    "reference": "https://github.com/rastikerdar/tanha-font",
     "types": [
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
@@ -410,21 +413,22 @@
   {
     "name" : "vazir",
     "title": "وزیر",
+    "reference": "https://github.com/rastikerdar/vazir-font",
     "types": [
       {
-        "name": "persiandigit-bold",
+        "name": "persiandigits-bold",
         "title": "قلم ضخیم با اعداد فارسی"
       },
       {
-        "name": "persiandigit-regular",
+        "name": "persiandigits-regular",
         "title": "قلم معمولی با اعداد فارسی"
       },
       {
-        "name": "persiandigit-medium",
+        "name": "persiandigits-medium",
         "title": "قلم متوسط با اعداد فارسی"
       },
       {
-        "name": "persiandigit-light",
+        "name": "persiandigits-light",
         "title": "قلم لایت با اعداد فارسی"
       },
       {
