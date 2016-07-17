@@ -262,6 +262,7 @@
   {
     "name" : "parastoo",
     "title": "پرستو",
+    "reference": "https://github.com/rastikerdar/parastoo-font",
     "types": [
       {
         "name": "bold",
@@ -294,6 +295,7 @@
   {
     "name" : "samim",
     "title": "صمیم",
+    "reference": "https://github.com/rastikerdar/samim-font",
     "types": [
       {
         "name": "bold",
@@ -356,6 +358,7 @@
   {
     "name" : "tanha",
     "title": "تنها",
+    "reference": "https://github.com/rastikerdar/tanha-font",
     "types": [
       {
         "name": "persiandigits-regular",
