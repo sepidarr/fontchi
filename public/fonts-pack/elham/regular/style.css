@@ -1,14 +1,14 @@
 /* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
 
 @font-face {
-    font-family: 'esfehan';
-    src: url('esfehan.eot');
+    font-family: 'elham';
+    src: url('elham.eot');
     /* IE9 Compat Modes */
-    src: url('esfehan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('esfehan.woff2') format('woff2'), /* Modern Browsers */
-    url('esfehan.woff') format('woff'), /* Modern Browsers */
-    url('esfehan.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('esfehan.svg') format('svg');
+    src: url('elham.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('elham.woff2') format('woff2'), /* Modern Browsers */
+    url('elham.woff') format('woff'), /* Modern Browsers */
+    url('elham.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('elham.svg') format('svg');
     /* Legacy iOS */
     font-weight: normal;
     font-style: normal;

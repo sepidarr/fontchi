@@ -1,14 +1,14 @@
 /* Copyright 2016 - Fontchi.ir - All rights Are reserved for Fontchi and Font Designer */
 
 @font-face {
-    font-family: 'BEsfehanBold';
-    src: url('./regular/BEsfehanBold.eot');
+    font-family: 'esfahan';
+    src: url('esfahan.eot');
     /* IE9 Compat Modes */
-    src: url('./regular/BEsfehanBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('./regular/BEsfehanBold.woff2') format('woff2'), /* Modern Browsers */
-    url('./regular/BEsfehanBold.woff') format('woff'), /* Modern Browsers */
-    url('./regular/BEsfehanBold.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('./regular/BEsfehanBold.svg') format('svg');
+    src: url('esfahan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('esfahan.woff2') format('woff2'), /* Modern Browsers */
+    url('esfahan.woff') format('woff'), /* Modern Browsers */
+    url('esfahan.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('esfahan.svg') format('svg');
     /* Legacy iOS */
     font-weight: normal;
     font-style: normal;
