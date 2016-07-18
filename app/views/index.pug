@@ -45,13 +45,12 @@ html(lang="fa", dir="rtl")
 
   body.light(ng-app="application", ng-controller="ApplicationController as vm")
 
-    include ./_topbar.pug
 
-    .row.expanded
-      .small-12.medium-2.columns
+    #container.row.expanded
+      #sidebar.small-12.medium-2.columns
         include ./_sidebar.pug
-      .small-12.medium-10.columns
-        p &nbsp;
+      #main.small-12.medium-10.columns
+        include ./_topbar.pug
         p &nbsp;
         <div ui-view></div>
 
