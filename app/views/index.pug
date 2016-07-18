@@ -44,10 +44,8 @@ html(lang="fa", dir="rtl")
 
 
   body.light(ng-app="application", ng-controller="ApplicationController as vm")
-
-
     #container.row.expanded
-      #sidebar.small-12.medium-2.columns
+      #sidebar.small-12.medium-2.columns(data-sticky-container,data-sticky-on="medium")
         include ./_sidebar.pug
       #main.small-12.medium-10.columns
         include ./_topbar.pug
@@ -58,7 +56,8 @@ html(lang="fa", dir="rtl")
     script(type="text/javascript", src="/static/javascripts/jquery.min.js")
     script(type="text/javascript", src="/static/javascripts/angular.min.js")
     script(type="text/javascript", src="/static/javascripts/foundation.min.js")
-
     script(type="text/javascript", src="/static/javascripts/libs.js")
-
     script(type="text/javascript", src="/static/javascripts/application.js")
+
+    script.
+      $(document).foundation();

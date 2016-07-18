@@ -36,16 +36,11 @@ body.light
       .unvisible
         visibility: visible
 
-// #container
-//   position: relative
-//   overflow: hidden
-//   min-height: 100%
-//
-//   #sidebar
-//     display: block
-//     position: absolute
-//     background-color: $white-color
-//     min-height: 100%
+@media screen and (max-width: 640px)
+  .sticky-container
+    position: initial
+    .sticky
+      position: initial
 
 p[contenteditable='true']
   border-radius: $button-radius
