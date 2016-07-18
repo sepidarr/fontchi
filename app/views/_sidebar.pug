@@ -1,4 +1,16 @@
-.sticky(data-sticky,data-margin-top="0")
+.sticky-container.hide-for-small-only(data-sticky-container,data-sticky-on="medium")
+  .sidebar.sticky(data-sticky,data-margin-top="0")
+    .text-center.sidebar-logo
+      img(src="/static/logo/fontchi-rectangular.png", alt="Fontchi | فونت چی")
+
+    .background-white.padding-xxlarge
+      label
+        span فاصله بین خطوط
+        input.range(type="range",min="30",max="60",step="1",ng-model="lineHeight")
+      label
+        span اندازه فونت
+        input.range(type="range",min="8",max="50",step="1",ng-model="fontSize")
+.sidebar.show-for-small-only
   .text-center.sidebar-logo
     img(src="/static/logo/fontchi-rectangular.png", alt="Fontchi | فونت چی")
 

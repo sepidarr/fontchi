@@ -44,10 +44,10 @@ html(lang="fa", dir="rtl")
 
 
   body.light(ng-app="application", ng-controller="ApplicationController as vm")
-    #container.row.expanded
-      #sidebar.small-12.medium-2.columns(data-sticky-container,data-sticky-on="medium")
+    .row.expanded
+      .small-12.medium-2.columns
         include ./_sidebar.pug
-      #main.small-12.medium-10.columns
+      .small-12.medium-10.columns
         include ./_topbar.pug
         p &nbsp;
         <div ui-view></div>
