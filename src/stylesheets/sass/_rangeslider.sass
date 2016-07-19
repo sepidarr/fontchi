@@ -2,7 +2,7 @@
 	-webkit-appearance: none
 	-moz-appearance: none
 	margin: 10px 0px
-	width: 100%
+	width: 100%	
 
 input[type=range]::-webkit-slider-runnable-track
 	-webkit-appearance: none
@@ -14,8 +14,13 @@ input[type=range]::-moz-range-track
 	background: linear-gradient(90deg,rgb(0, 172, 183) 0%, rgb(0, 255, 201) 100%)
 	height: 2px
 
-input[type=range]::-webkit-slider-thumb
+input[type=range]::-ms-track
 	-webkit-appearance: none
+	appearance: none
+	background: linear-gradient(90deg,rgb(0, 172, 183) 0%, rgb(0, 255, 201) 100%)
+	height: 2px
+
+input[type=range]::-webkit-slider-thumb
 	border-radius: 50%
 	height: 15px
 	width: 15px
@@ -23,15 +28,13 @@ input[type=range]::-webkit-slider-thumb
 	position: relative
 	bottom: 7.5px
 	background-color: darken($primary-color, 10%)
+	transition: border 1000ms ease
+	-webkit-appearance: none
 	cursor: -webkit-grab
 	-webkit-transition: border 1000ms ease
-	transition: border 1000ms ease
 	&:active
 		cursor: -webkit-grabbing
-
-
 input[type=range]::-moz-range-thumb
-	-moz-appearance: none
 	border-radius: 50%
 	height: 15px
 	width: 15px
@@ -39,11 +42,25 @@ input[type=range]::-moz-range-thumb
 	position: relative
 	bottom: 7.5px
 	background-color: darken($primary-color, 10%)
+	transition: border 1000ms ease
 	cursor: -moz-grab
 	-moz-transition: border 1000ms ease
 	transition: border 1000ms ease
 	&:active
 		cursor: -moz-grabbing
+input[type=range]::-ms-thumb
+	border-radius: 50%
+	height: 15px
+	width: 15px
+	max-width: 80px
+	position: relative
+	bottom: 7.5px
+	background-color: darken($primary-color, 10%)
+	transition: border 1000ms ease
+	cursor: grab
+	transition: border 1000ms ease
+	&:active
+		cursor: grabbing
 
 
 input[type=range]:focus
