@@ -18,7 +18,6 @@
         if (scope.$last === true) {
             elem.ready(function () {
                 $(document).foundation();
-                console.log("Sticky Started");
             });
         }
       }
