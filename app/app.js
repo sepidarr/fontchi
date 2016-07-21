@@ -22,8 +22,8 @@ app.set('view engine', 'pug');
 // ------------------------ End of express configurations
 
 app.get('/', function( req, res, next ) {
-  // res.render('index');
-  res.send('Fontchi is down for maintenance, please come back later!');
+  res.render('index');
+  // res.send('Fontchi is down for maintenance, please come back later!');
 });
 
 app.get('/fonts', function( req, res, next ) {

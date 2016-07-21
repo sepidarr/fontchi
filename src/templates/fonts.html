@@ -1,4 +1,2 @@
-<div infinite-scroll="vm.fontsList.loadMoreFonts()" infinite-scroll-distance="2">
-  <preview id="{{font.name}}{{font.types[0].name}}"
-  ng-repeat="font in vm.fontsList.fonts | filter: { title: vm.searchQuery } " />
-</div>
+<preview id="{{font.name}}{{font.types[0].name}}" 
+ng-repeat="font in vm.fonts | filter: { title: vm.searchQuery } " />

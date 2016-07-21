@@ -5,8 +5,7 @@
     "foundation": "./bower_components/foundation-sites/dist/foundation.min.js",
     "common": [
       "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
-      "./bower_components/angular-local-storage/dist/angular-local-storage.min.js",
-      "./bower_components/ngInfiniteScroll/build/ng-infinite-scroll.min.js"
+      "./bower_components/angular-local-storage/dist/angular-local-storage.min.js"
     ]
   },
   "stylesheets": [

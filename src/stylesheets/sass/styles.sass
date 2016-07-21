@@ -5,7 +5,6 @@
 +build-color-palette
 
 @import "helpers"
-@import "rangeslider"
 
 // Shabnam Font Family
 +font-face("shabnam/bold", 'shabnambold', 'shabnam')
@@ -24,7 +23,7 @@ p, label, input, button, small, a, li, legend, td, span, strong, div, pre
 body.light
   background-color: #f8f8f8
   .sidebar-logo
-    background: linear-gradient(180deg,rgb(0, 172, 183) 0%, rgb(0, 255, 201) 100%)
+    background: #03a2ac
     padding: 15px
   .preview
     transition: all 0.5s ease
@@ -35,8 +34,6 @@ body.light
       transition: all 0.5s ease
       .unvisible
         visibility: visible
-  // .sticky
-  //   margin-top: 0 !important
 
 p[contenteditable='true']
   border-radius: $button-radius
@@ -49,3 +46,7 @@ p[contenteditable='true']
     outline: none
     box-shadow: inset 1px 1px 20px rgba(0,0,0,0.1)
     transition: all 0.5s ease-in-out
+
+.range
+  margin: 10px 0px
+  width: 100%	
