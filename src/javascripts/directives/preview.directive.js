@@ -15,12 +15,12 @@
       link: function (scope,elem,attrs) {
         // Determine if last ng-repeat item has been loaded and then
         // Bind foundation to document
-        if (scope.$last === true) {
-            elem.ready(function () {
-                $(document).foundation();
-                console.log("Sticky Started");
-            });
-        }
+        // if (scope.$last === true) {
+        //     elem.ready(function () {
+        //         $(document).foundation();
+        //         console.log("Sticky Started");
+        //     });
+        // }
       }
     };
   }
