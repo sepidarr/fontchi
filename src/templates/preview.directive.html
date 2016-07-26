@@ -42,9 +42,23 @@
       <h6>نمونه عنوان h6</h6>
       <small> نمونه متن small </small>
       <p>&nbsp;</p>
-      <div class="source" ng-if="font.reference">
-        <p>برای اطلاعات بیشتر به وب سایت زیر مراجعه کنید.</p>
-        <a href="{{font.reference}}" target="_blank">{{font.reference}}</a>
+      <div class="row">
+        <div class="small-12 medium-6 columns" ng-if="font.meta.designedBy">
+          <p style="font-size: 24px"><strong>نام طراح: </strong> {{font.meta.designedBy}}</p>
+        </div>
+        <div class="small-12 medium-6 columns" ng-if="font.meta.implementedBy">
+          <p style="font-size: 24px"><strong>پیاده سازی شده توسط: </strong> {{font.meta.implementedBy}}</p>
+        </div>
+        <div class="small-12 medium-6 columns" ng-if="font.meta.designDate">
+          <p style="font-size: 24px"><strong>تاریخ طراحی: </strong> {{font.meta.designDate}}</p>
+        </div>
+        <div class="small-12 medium-6 columns" ng-if="font.meta.ownedBy">
+          <p style="font-size: 24px"><strong>صاحب امتیاز: </strong> {{font.meta.ownedBy}}</p>
+        </div>
+        <div class="small-12 medium-6 columns" ng-if="font.meta.licenseType">
+          <p style="font-size: 24px"><strong>نوع لایسنس: </strong> {{font.meta.licenseType}}</p>
+        </div>
+        <div class="small-12 medium-6 columns"><p>&nbsp;</p></div>
       </div>
     </div>
   </div>

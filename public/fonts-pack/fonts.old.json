@@ -17,6 +17,16 @@
     }
   },
   {
+    "name" : "baran",
+    "title": "باران",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
     "name" : "bardiya",
     "title": "بردیا",
     "types": [
@@ -34,6 +44,16 @@
     }
   },
   {
+    "name" : "davat",
+    "title": "دوات",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
     "name" : "elham",
     "title": "الهام",
     "types": [
@@ -49,6 +69,26 @@
       "ownedBy": null,
       "licenseType": null
     }
+  },
+  {
+    "name" : "esfehan",
+    "title": "اصفهان",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "fantezy",
+    "title": "فانتزی",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
   },
   {
     "name" : "farbod",
@@ -102,6 +142,26 @@
     }
   },
   {
+    "name" : "hamid",
+    "title": "حمید",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "helal",
+    "title": "هلال",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
     "name" : "homa",
     "title": "هما",
     "types": [
@@ -117,6 +177,16 @@
       "ownedBy": null,
       "licenseType": null
     }
+  },
+  {
+    "name" : "jadid",
+    "title": "جدید",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
   },
   {
     "name" : "jalal",
@@ -153,6 +223,16 @@
     }
   },
   {
+    "name" : "kourosh",
+    "title": "کوروش",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
     "name" : "lotus",
     "title": "لوتوس",
     "types": [
@@ -168,6 +248,26 @@
       "ownedBy": "لاینوتایپ",
       "licenseType": null
     }
+  },
+  {
+    "name" : "mahsa",
+    "title": "مهسا",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "mehr",
+    "title": "مهر",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
   },
   {
     "name" : "mitra",
@@ -204,6 +304,26 @@
     }
   },
   {
+    "name" : "narm",
+    "title": "نرم",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "nasim",
+    "title": "نسیم",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
     "name" : "nazanin",
     "title": "نازنین",
     "types": [
@@ -213,7 +333,7 @@
       }
     ],
     "meta": {
-      "designedBy": "حسین عبدالله زاده حقیقی",
+      "designedBy": "جسین عبدالله زاده حقیقی",
       "implementedBy": null,
       "designedDate": "۱۳۴۹",
       "ownedBy": null,
@@ -238,6 +358,29 @@
     }
   },
   {
+    "name" : "parastoo",
+    "title": "پرستو",
+    "reference": "https://github.com/rastikerdar/parastoo-font",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      },
+      {
+        "name": "persiandigits-bold",
+        "title": "قلم ضخیم با اعداد فارسی"
+      },
+      {
+        "name": "persiandigits-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
     "name" : "roya",
     "title": "رویا",
     "types": [
@@ -253,6 +396,49 @@
       "ownedBy": "نرم افزاری سینا",
       "licenseType": null
     }
+  },
+  {
+    "name" : "samim",
+    "title": "صمیم",
+    "reference": "https://github.com/rastikerdar/samim-font",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      },
+      {
+        "name": "persiandigits-bold",
+        "title": "قلم ضخیم با اعداد فارسی"
+      },
+      {
+        "name": "persiandigits-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "setareh",
+    "title": "ستاره",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "shiraz",
+    "title": "شیراز",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
   },
   {
     "name" : "sina",
@@ -289,6 +475,31 @@
     }
   },
   {
+    "name" : "tanha",
+    "title": "تنها",
+    "reference": "https://github.com/rastikerdar/tanha-font",
+    "types": [
+      {
+        "name": "persiandigits-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
+    "name" : "tehran",
+    "title": "تهران",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
+  },
+  {
     "name" : "titr",
     "title": "تیتر",
     "types": [
@@ -321,6 +532,55 @@
       "ownedBy": "شرکت Dymo International در آتلیه KCT",
       "licenseType": null
     }
+  },
+  {
+    "name" : "vahid",
+    "title": "وحید",
+    "types": [
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      }
+    ]
+  },
+  {
+    "name" : "vazir",
+    "title": "وزیر",
+    "reference": "https://github.com/rastikerdar/vazir-font",
+    "types": [
+      {
+        "name": "persiandigits-bold",
+        "title": "قلم ضخیم با اعداد فارسی"
+      },
+      {
+        "name": "persiandigits-regular",
+        "title": "قلم معمولی با اعداد فارسی"
+      },
+      {
+        "name": "persiandigits-medium",
+        "title": "قلم متوسط با اعداد فارسی"
+      },
+      {
+        "name": "persiandigits-light",
+        "title": "قلم لایت با اعداد فارسی"
+      },
+      {
+        "name": "bold",
+        "title": "قلم ضخیم"
+      },
+      {
+        "name": "light",
+        "title": "قلم لایت"
+      },
+      {
+        "name": "medium",
+        "title": "قلم متوسط"
+      },
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
   },
   {
     "name" : "yagut",
@@ -389,5 +649,15 @@
       "ownedBy": "حروف ریزی زر",
       "licenseType": null
     }
+  },
+  {
+    "name" : "ziba",
+    "title": "زیبا",
+    "types": [
+      {
+        "name": "regular",
+        "title": "قلم معمولی"
+      }
+    ]
   }
 ]
