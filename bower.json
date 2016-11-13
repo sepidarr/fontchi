@@ -1,13 +1,15 @@
 {
-  "name": "fontchi-angular",
+  "name": "fontchi",
   "authors": [
-    "Sina Sadrzadeh <sadrzadeh.sinaa@gmail.com>"
+    "Sina Sadrzadeh <sina@neacod.in>",
+    "Masoud Mirzaei <masoud@neacod.in>",
+    "Navid Veradi <navid@neacod.in>",
+    "Alireza Shafiei <alireza@neacod.in>"
   ],
-  "description": "",
+  "description": "Fontchi is a Directory of Persian/Farsi Fonts that allows you to choose and pick your desired set of fonts.",
   "main": "",
-  "license": "MIT",
-  "homepage": "",
-  "private": true,
+  "license": "Apache-2.0",
+  "homepage": "http://fontchi.ir",
   "ignore": [
     "**/.*",
     "node_modules",

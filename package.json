@@ -1,14 +1,14 @@
 {
-  "name": "fontchi-angular",
+  "name": "fontchi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fontchi is a Directory of Persian/Farsi Fonts that allows you to choose and pick your desired set of fonts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "neacod.in",
+  "license": "Apache-2.0",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
