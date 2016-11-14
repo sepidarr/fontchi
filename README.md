@@ -38,6 +38,10 @@ What's Fontchi built with? - فونت چی با چی ساخته شده؟
 -----
 Fontchi Uses [NodeJS](http://www.nodejs.org) as Backend Technoloy to Handle the Server Side Calculations and Tasks and [AngularJS 1.x](http://angularjs.org) to show list of fonts. We use [GruntJS](http://gruntjs.com) to run a series of task and to handle the build process.
 
+<p align="right"> 
+فونت چی برای محاسبات سمت سرور ش از <a href="https://nodejs.org">نود</a> استفاده می کنه و در سمت کلایت هم از نسخه ۱ <a href="https://angularjs.org/">انگولار</a> استفاده می کنه. برای انجام پروسه بیلد پروژه و انجام دادن تسک های مربوط به اون از <a href="http://gruntjs.com/">گرانت</a> استفاده می کنه.
+</p>
+
 Contribution - کمک در بهبود
 ----
 Fontchi didn't mean to be an Open Source Project at the beginning, but as [Neacodin](http://neacod.in) grew more and became larger we found other projects to work on, and there was no more time left that we could spend on Fontchi! So we decided to make it an Open Source project so that people could contribute and build what was desired that maybe we couldn't build by ourselves. All kind of contributions are welcomed. You can contribute to the backend and frontend or Design/UI/UX. You can also contribute to make the wiki of this repo to be more rich.
@@ -58,16 +62,16 @@ First you need to Dependencies to build project. Start with Installing **Bower a
 $ npm i -g bower grunt grunt-cli
 ```
 
-Once you installed them clone this repository by using the command below:
+Once you installed them fork this repo and clone it by using the command below:
 <p align="right">
-بعد از این می تونید این مخزن رو کلون کنید.
+بعد از این می تونید این مخزن رو فورک و بعد از اون کلون کنید.
 </p>
 
 ```
 // If you have Configured your SSH
-$ git clone git@github.com:neacodin/fontchi.git
+$ git clone git@github.com:{your github username}/fontchi.git
 // Otherwise you should use https
-$ git clone http://github.com/neacodin/fontchi.git
+$ git clone http://github.com/{your github username}/fontchi.git
 ```
 
 Head to Fontchi Project Folder and Install all the dependencies:
@@ -91,10 +95,13 @@ $ grunt build
 
 Now you can start Node server by running the command below:
 <p align="right">
-و نهایتا سرور نود رو از طریق دستور زیر اجرا کنید و تغییرات خودتون رو ببینید.
+سرور نود رو از طریق دستور زیر اجرا کنید و تغییرات خودتون رو ببینید.
 </p>
 
 ``` 
 $ node server.js
 ```
 
+Finally You can commit your changes and make a pull request with you changes info and details.
+<p align="right"> به همراه جزئیات تغییرات تون بسازید Pull Request 
+در نهایت می تونید تغییرات خودتون رو کامیت کنید و یک </p>
